@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/901df9ab27.js" crossorigin="anonymous"></script>
+    <!-- Tailwind Section -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                price: '#fabe4c',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header class="bg-amber-100 md:px-7 px-5">
+       <!--  nav -->
+       <nav class="md:flex justify-center items-center mx-auto pt-10">
+        <div>
+            <img class="w-full md:w-1/2" src="icons/logo.png" alt="">
+        </div>
+        <div class="flex items-center px-6 pt-6">
+            <ul class="list-none md:flex md:space-x-7 font-semibold flex-shrink-0">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+       </nav>
+
+       <!-- Header Section -->
+       <div class="container mx-auto  md:flex justify-center items-center py-12">
+        <div class="space-y-6 px-4 md:mr-10">
+            <h1 class="text-7xl font-semibold"> <span class="text-amber-400">BE THE PENGUINS </span> <br> OF THE WINTER</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, vel.</p>
+            <button class="py-4 px-8 rounded-lg text-white uppecase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><i class="fa-solid fa-cart-shopping text-white"></i> Buy Now</button>
+        </div>
+        <div>
+            <img class="w-3/4 md:w-full" src="images/model.png" alt="">
+        </div>
+       </div>
+    </header>
+
+    <main class="container mx-auto">
+        <!-- Woman Jacket Section -->
+        <section class="mt-12">
+            <h2 class="text-5xl font-semibold">WOMAN JACKET</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Jacket Card 1 -->
+                <div class="rounded-2xl p-4 drop-shadow-xl">
+                    <div class="bg-slate-100 rounded-2xl p-4">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                        <p class="my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero adipisci porro obcaecati consectetur quam quaerat molestiae, facere voluptates itaque consequuntur!</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-semibold text-price">$234</h2>
+                            <button class="py-4 px-8 rounded-lg text-white uppecase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><i class="fa-solid fa-cart-shopping text-white"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jacket Card 2 -->
+                <div class="rounded-2xl p-4 drop-shadow-xl">
+                    <div class="bg-slate-100 rounded-2xl p-4">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                        <p class="my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero adipisci porro obcaecati consectetur quam quaerat molestiae, facere voluptates itaque consequuntur!</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-semibold text-price">$234</h2>
+                            <button class="py-4 px-8 rounded-lg text-white uppecase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><i class="fa-solid fa-cart-shopping text-white"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jacket Card 3 -->
+                <div class="rounded-2xl p-4 drop-shadow-xl">
+                    <div class="bg-slate-100 rounded-2xl p-4">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                        <p class="my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero adipisci porro obcaecati consectetur quam quaerat molestiae, facere voluptates itaque consequuntur!</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-semibold text-price">$234</h2>
+                            <button class="py-4 px-8 rounded-lg text-white uppecase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><i class="fa-solid fa-cart-shopping text-white"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Man Jacket Section -->
+        <section class="mt-12">
+            <h2 class="text-5xl font-semibold">MEN JACKET</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Jacket Card 1 -->
+                <div class="rounded-2xl p-4 drop-shadow-xl">
+                    <div class="bg-slate-100 rounded-2xl p-4">
+                        <img src="images/jacket-4.png" alt="">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl">Snowboard Jacket Mens</h3>
+                        <p class="my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero adipisci porro obcaecati consectetur quam quaerat molestiae, facere voluptates itaque consequuntur!</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-semibold text-price">$234</h2>
+                            <button class="py-4 px-8 rounded-lg text-white uppecase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><i class="fa-solid fa-cart-shopping text-white"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jacket Card 2 -->
+                <div class="rounded-2xl p-4 drop-shadow-xl">
+                    <div class="bg-slate-100 rounded-2xl p-4">
+                        <img src="images/jacket-5.png" alt="">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl">Men Leather Jackets</h3>
+                        <p class="my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero adipisci porro obcaecati consectetur quam quaerat molestiae, facere voluptates itaque consequuntur!</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-semibold text-price">$234</h2>
+                            <button class="py-4 px-8 rounded-lg text-white uppecase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><i class="fa-solid fa-cart-shopping text-white"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jacket Card 3 -->
+                <div class="rounded-2xl p-4 drop-shadow-xl">
+                    <div class="bg-slate-100 rounded-2xl p-4">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl">Mens Casual Jackets</h3>
+                        <p class="my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero adipisci porro obcaecati consectetur quam quaerat molestiae, facere voluptates itaque consequuntur!</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-semibold text-price">$234</h2>
+                            <button class="py-4 px-8 rounded-lg text-white uppecase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><i class="fa-solid fa-cart-shopping text-white"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shopping From Us Section -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
+            <div class="order-2 md:order-1 bg-slate-200 flex gap-8 h-32 p-6 rounded-2xl shadow-2xl items-center">
+                <img class="h-20 w-20" src="icons/house.png" alt="">
+                <div>
+                    <h3 class="text-2xl">Find The Perfect Fit</h3>
+                    <p>Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="order-1 md:order-2 bg-slate-200 row-span-3 p-6 rounded-2xl">
+                <img src="images/shopping.png" alt="">
+            </div>
+            <div class="order-3 bg-slate-200 flex gap-8 h-32 p-6 rounded-2xl shadow-2xl items-center">
+                <img class="h-20 w-20" src="icons/box.png" alt="">
+                <div>
+                    <h3 class="text-2xl">Free Exchanges</h3>
+                    <p>Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="order-4 bg-slate-200 flex gap-8 h-32 p-6 rounded-2xl shadow-2xl items-center">
+                <img class="h-20 w-20" src="icons/question.png" alt="">
+                <div>
+                    <h3 class="text-2xl">Contact Our Seller</h3>
+                    <p>Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
